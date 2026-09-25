@@ -95,7 +95,7 @@ The password-recovery laboratory was completed using two approaches:
 
 * Copied the recovered plain-text password from the JTR application.
 * Opened the original protected PDF file.
-* Supplied the recovered password.
+* Supplied the recovered password ("good-luck" in this case).
 * Successfully unlocked and accessed the protected document.
 
 ![Previously Locked PDF](screenshot-pdfpassword.png)
@@ -104,17 +104,17 @@ The password-recovery laboratory was completed using two approaches:
 
 ---
 
-### Method 2: Web-Based Attack via [NETWORKWALKS Tools](https://networkwalks.com/hash-calculator/)
+### Method 2: Web-Based Attack via NETWORKWALKS Tools
 
 #### Step 1: Generating the Hash via Hash Calculator
 
-* Navigated to the **NETWORKWALKS Hash Calculator** tool.
+* Navigated to the **[NETWORKWALKS Hash Calculator](https://networkwalks.com/hash-calculator/)** tool.
 * Uploaded the target encrypted PDF file.
 * Extracted its cryptographic hash signature.
 * Received an extracted hash string beginning with the `$pdf$` format prefix.
 * Copied the complete hash string to the clipboard.
 
-![Hash Calculator](./Screenshot%202026-09-23%20093118.png)
+![Hash Calculator](screenshot-nwhash.png)
 
 #### Step 2: Cracking via NETWORKWALKS Password Cracker
 
@@ -124,15 +124,15 @@ The password-recovery laboratory was completed using two approaches:
 * The tool initiated an automated process using candidate passwords until a match was identified.
 * Received the interface message **"Password cracked successfully"** along with the recovered plain-text credential.
 
-![Password Cracked](./Screenshot%202026-09-23%20091712.png)
+![Password Cracked](screenshot-nwcracked.png)
 
 #### Step 3: Document Decryption Verification
 
 * Copied the recovered plain-text password from the NETWORKWALKS interface.
-* Applied the recovered credential to the original PDF file.
+* Applied the recovered credential to the original PDF file ("password1" in this case.
 * Successfully decrypted and accessed the protected document.
 
-![PDF Decrypted Successfully](./Screenshot%202026-09-23%20093602.png)
+![PDF Decrypted Successfully](screenshot-crackedpassword2.png)
 
 ---
 
