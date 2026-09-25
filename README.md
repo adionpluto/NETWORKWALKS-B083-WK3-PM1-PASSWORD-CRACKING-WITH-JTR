@@ -135,38 +135,6 @@ The password-recovery laboratory was completed using two approaches:
 
 ---
 
-## Project Snapshots
-
-### Hash Extraction
-
-![Hash Converter](./Screenshot%202026-09-23%20090219.png)
-
-### John the Ripper
-
-![John the Ripper](./Screenshot%202026-09-23%20094223.png)
-
-### Cracked Password
-
-![Cracked Password](./Screenshot%202026-09-23%20094152.png)
-
-### Successful Document Access
-
-![Successful](./Screenshot%202026-09-23%20090848.png)
-
-### NETWORKWALKS Hash Calculator
-
-![Hash Calculator](./Screenshot%202026-09-23%20093118.png)
-
-### NETWORKWALKS Password Cracker
-
-![Password Cracked](./Screenshot%202026-09-23%20091712.png)
-
-### PDF Decryption Verification
-
-![PDF Decrypted Successfully](./Screenshot%202026-09-23%20093602.png)
-
----
-
 # What I Learned
 
 This project provided practical experience with password recovery, hash analysis, and encrypted-document security testing.
@@ -213,12 +181,6 @@ Default short wordlists failed to resolve the hash during early test iterations.
 
 Loading a broader dictionary into the application resolved the password match.
 
-### 3. Browser Session Timeouts
-
-During online cracking with NETWORKWALKS Tools, larger wordlist lookups occasionally caused browser latency.
-
-Testing with targeted hash sets helped maintain smoother operation.
-
 ---
 
 ## Security & Ethical Use
@@ -237,17 +199,18 @@ Unauthorized password attacks, access attempts, scanning, exploitation, or testi
 * **Online PDF Hash Extractor:** Web utility used to parse protected PDF files and export crackable hash strings.
 * **NETWORKWALKS Hash Calculator:** Online tool for extracting PDF signature hashes beginning with `$pdf$`.
 * **NETWORKWALKS Password Cracker:** Web-based interface for password-recovery attacks.
-* **Wordlist Dictionary:** Custom and standard wordlists used for password candidate generation.
 
 ---
 
 # Author
 
-*Esther Mesirionye*  
-**Cybersecurity Intern at Networkwalks**
+*Aditya Choubey*  
+**Computer Science Student**
+
+[LinkedIn](https://www.linkedin.com/in/adityachby/) 
 
 ---
 
 ## Project Information
 
-**Program Name:** Cybersecurity at Networkwalks | **Week:** 01 | **Project:** Password Recovery & Hash Analysis | **Repository:** GitHub
+**Program Name:** Cybersecurity at Networkwalks | **Week:** 03 | **Project:** PASSWORD RECOVERY HASH ANALYSIS JTR | **Repository:** GitHub
