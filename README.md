@@ -43,7 +43,6 @@ The project was undertaken to:
 * **NETWORKWALKS Hash Calculator** — Used to extract PDF encryption hash signatures.
 * **NETWORKWALKS Password Cracker** — Used for web-based password recovery.
 * **Online PDF Hash Extractor** — Used to parse protected PDF files and export crackable hash strings.
-* **Wordlist Dictionary** — Used to generate password candidates.
 * **Protected PDF Documents** — Used as the target files for authorized password-recovery testing.
 
 ---
