@@ -104,7 +104,7 @@ The password-recovery laboratory was completed using two approaches:
 
 ---
 
-### Method 2: Web-Based Attack via NETWORKWALKS Tools
+### Method 2: Web-Based Attack via [NETWORKWALKS Tools](https://networkwalks.com/hash-calculator/)
 
 #### Step 1: Generating the Hash via Hash Calculator
 
