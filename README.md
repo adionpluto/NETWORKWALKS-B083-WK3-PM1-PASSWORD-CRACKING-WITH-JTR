@@ -77,7 +77,7 @@ The password-recovery laboratory was completed using two approaches:
 * Converted the file information into a crackable hash string.
 * Exported and saved the resulting hash output into a plain-text file.
 
-![Hash Converter](./Screenshot%202026-09-23%20090219.png)
+![Hash Converter](screenshot-hashextractor.png)
 
 #### Step 2: Executing John the Ripper
 
@@ -87,9 +87,9 @@ The password-recovery laboratory was completed using two approaches:
 * Initiated the cracking attack session.
 * The JTR application processed candidate passwords until a matching password was identified.
 
-![John the Ripper](./Screenshot%202026-09-23%20094223.png)
+![John the Ripper](screenshot-johhnyinterface.png)
 
-![Cracked Password](./Screenshot%202026-09-23%20094152.png)
+![Cracked Password](screenshot-johhnyattack.png)
 
 #### Step 3: Verifying Document Access
 
@@ -98,7 +98,9 @@ The password-recovery laboratory was completed using two approaches:
 * Supplied the recovered password.
 * Successfully unlocked and accessed the protected document.
 
-![Successful PDF Access](./Screenshot%202026-09-23%20090848.png)
+![Previously Locked PDF](screenshot-pdfpassword.png)
+
+![Successful PDF Access](screenshot-crackedpassword.png)
 
 ---
 
